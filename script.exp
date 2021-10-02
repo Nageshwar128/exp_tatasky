@@ -89,18 +89,18 @@ send -- ""
 expect -exact " "
 send -- ""
 expect -exact "   "
-send -- "$MOB_NO"
-expect -exact "$MOB_NO"
+send -- "MOB_NO"
+expect -exact "MOB_NO"
 send -- "\r"
 expect -exact "\r
 Enter your Subscriber Id: "
-send -- "$SUB_ID"
-expect -exact "$SUB_ID"
+send -- "SUB_ID"
+expect -exact "SUB_ID"
 send -- "\r"
 expect -exact "\r
 Enter your password: "
-send -- "$PASSWORD\r"
-expect -exact "$PASSWORD\r
+send -- "PASSWORD\r"
+expect -exact "PASSWORD\r
 Trying to Login with password ............\r
 \r
  \r
