@@ -126,7 +126,7 @@ Menu:\r
 \r
 Enter your choice:"
 send -- "3\r"
-expect -exact "3\r
+expect "3\r
 ***********************\r
 Please wait till the playlist is generated...\r
 You may see a lot of lines being printed, you may ignore it\r
