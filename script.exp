@@ -89,7 +89,7 @@ send -- ""
 expect -exact " "
 send -- ""
 expect -exact "   "
-send -- "MOB_NO"
+send -- "MOB_NO"
 expect -exact "MOB_NO"
 send -- "\r"
 expect -exact "\r
