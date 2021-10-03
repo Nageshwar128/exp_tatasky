@@ -133,7 +133,7 @@ You may see a lot of lines being printed, you may ignore it\r
 The generated m3u will be saved as allChannelPlaylist.m3u under the code_samples directory\r
 ************************************\r
 ================================================================\r
-Found total channels subscribed by user \r
+Found total * channels subscribed by user \r
 Saving them to m3u file\r
 ================================================================\r
 \r
